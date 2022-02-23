@@ -15,10 +15,14 @@ def print_match(m):
     else:
         print("매칭되지 않음")
 
-# match : 주어진 문자열이 처음부터 일치하는지 확인
+# match : 주어진 문자열이 처음부터 일치하는지 확인 (맨 처음 발견하는 단어)
 m = p.match("case")
 print_match(m)
 
-# search : 주어진 문자열 중에 일치하는게 있는지 확인
+# search : 주어진 문자열 중에 일치하는게 있는지 확인 (맨 처음 발견하는 단어)
 m = p.search("good care")
 print_match(m)
+
+# findall : 일치하는 모든 것을 리스트로 반환
+lst = p.findall("good care cafe")
+print(lst)
