@@ -67,3 +67,4 @@ for i in range(1, 6):
             print(f"평점  : {rate} ({rate_cnt} 개")
             print("바로가기 : {}".format("https://www.coupang.com" + link))
             print("-"*100) # 경계선
+            
