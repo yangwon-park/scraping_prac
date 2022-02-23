@@ -1,7 +1,7 @@
-import time
-import random
+import time, random
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Chrome("./chromedriver.exe")
 time.sleep(random.uniform(1, 3)) # delay

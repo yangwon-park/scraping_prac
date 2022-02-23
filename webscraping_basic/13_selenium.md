@@ -22,7 +22,7 @@ browser = webdriver.Chrome("./chromedriver.exe")
 
 ```python
 from selenium import webdriver
-from selenium.webdriver.common.by import By				# deprecated된 문법 사용하지 않기 위해 불러옴
+from selenium.webdriver.common.by import By			  # deprecated된 문법 사용하지 않기 위해 불러옴
 from selenium.webdriver.common.keys import Keys		  # 키보드로 입력하는 것처럼 사용가능
 
 # 동일한 경로에 드라이버가 있는 경우 webdriver.Chrome()로 사용 가능
